@@ -17,12 +17,16 @@ body{
     padding-top: 20px;
 }
 
+.titleBox {
+    text-align: left;
+    padding-left: 50px;
+}
 .titleBox img{
-    width: 15%;
+    width: 20%;
 }
 
 .photoBox{
-    margin-top: 100px;
+    margin-top: 30px;
     transition: 100ms;
 }
 
@@ -57,6 +61,12 @@ body{
     .container:hover{
         padding-top: 10px;
     }
+
+    .titleBox {
+        text-align: center;
+        padding-left: 0;
+    }
+    
 
     .titleBox img{
         width: 50%;
