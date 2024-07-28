@@ -1,0 +1,77 @@
+body{
+   background: url('/assets/image/sky.jpg'); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+
+.container{
+    text-align: center;
+    padding-top: 50px;
+    transition: 300ms;
+}
+.container:hover{
+    padding-top: 20px;
+}
+
+.titleBox img{
+    width: 15%;
+}
+
+.photoBox{
+    margin-top: 100px;
+    transition: 100ms;
+}
+
+.photoBox img{
+    width: 20%;
+}
+
+.iconBox{
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 100px;
+}
+.iconBox .logo{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.iconBox img{
+    width: 100%;
+}
+
+
+@media (min-width: 0px) and (max-width: 800px) {
+
+    .container{
+        padding-top: 30px;
+    }
+
+    .container:hover{
+        padding-top: 10px;
+    }
+
+    .titleBox img{
+        width: 50%;
+    }
+
+    .photoBox img{
+        width: 70%;
+        filter:url(#drop-shadow) ;
+    }
+
+    .iconBox .logo{
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+    }
+    
+    
+}

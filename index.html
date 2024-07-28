@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="titleBox"><img src="/assets/image/rabbitName2.png" alt=""></div>
+
+
+        <svg width="0" height="0">
+            <defs>
+                <filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/> <!-- میزان محوشدگی -->
+                    <feOffset dx="5" dy="5" result="offsetblur"/> <!-- افست سایه -->
+                    <feFlood flood-color="rgba(0,0,0,0.5)"/> <!-- رنگ و شفافیت سایه -->
+                    <feComposite in2="offsetblur" operator="in"/>
+                    <feMerge>
+                        <feMergeNode/>
+                        <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                </filter>
+            </defs>
+        </svg>
+
+
+        <div class="photoBox"><img src="/assets/image/rabbit.png" alt=""></div>
+        <div class="iconBox">
+            <div class="logo"><img src="/assets/image/instagram.svg" alt=""></div>
+            <div class="logo"><img src="/assets/image/youtube.svg" alt=""></div>
+            <div class="logo"><img src="/assets/image/telegram.svg" alt=""></div>
+            <div class="logo"><img src="/assets/image/twitter-alt.svg" alt=""></div>
+        </div>
+    </section>
+    
+</body>
+</html>
